@@ -3,7 +3,8 @@ Currently this is my latest attempt at building a minecraft mod. As this is my f
 
 If you wish to submit a pull request to fix bugs or broken behaviour feel free to do so. 
 
-# Current Status: Creating goals and initializing project
+# Current Status: 
+Creating goals and initializing project
 
 # Goals of  this project:
 
