@@ -14,6 +14,9 @@ public class SuperPipes {
   public static final String name = "Super Pipes";
   public static final String version = "0.01";
   
+  @SidedProxy(serverSide = "net.jugglermast.superpipes.proxy.CommonProxy", clientSide = "net.jugglermaster.superpipes.proxy.ClientProxy")
+  public static CommonProxy proxy;
+  
   @Mod.Instance(modId)
   public static superpipes instance;
   
