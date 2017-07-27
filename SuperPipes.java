@@ -1,6 +1,6 @@
 //Main class
 //Super Pipes!
-packages net.jugglermaster.superpipes;
+package net.jugglermaster.superpipes;
 
 import net.miecraftforge.fml.common.Mod;
 import net.miecraftforge.fml.common.event.FMLInitializationEvent;
