@@ -33,4 +33,17 @@ public class SuperPipes {
   @Mod.EventHandler
   public void postInit(FMLPostInitializationEvent event){
   }
+  
+  @Mod.EventBusSubscriber
+  public static class RegistrationHandler {
+    @SubscribeEvent
+    public static void registerItems(RegistryEvent.Register<Item> event){
+      ModItems.register(event.getRegistry());
+    }
+    @SubscribeEvent
+    public static void registerItems(ModelRegistryEvent event) {
+     ModItems.registerModels(); 
+    }
+  }
+  
 }
