@@ -1,4 +1,5 @@
-package juggermaster;
+
+package juggermaster.superpipes;
 
 public static ClientProxy extends CommonProxy {
   
