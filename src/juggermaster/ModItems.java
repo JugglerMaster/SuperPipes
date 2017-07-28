@@ -1,4 +1,5 @@
-package juggermaster;
+
+package juggermaster.superpipes.item;
 
 import net.miecraft.item.Item;
 import net.minecraftforge.registries.IForgeRegistry;
