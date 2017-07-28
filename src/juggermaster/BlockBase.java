@@ -1,4 +1,4 @@
-package net.jugglermaster.superpipes.block;
+package juggermaster;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;

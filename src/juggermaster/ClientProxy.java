@@ -1,4 +1,4 @@
-package net.jugglermaster.superpipes;
+package juggermaster;
 
 public static ClientProxy extends CommonProxy {
   
