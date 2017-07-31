@@ -5,7 +5,7 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.jugglermaster.superpipes.SuperPipes;
 
-public class ItemBase extends Item {
+public class ItemBase extends Item implements ItemModelProvider{
 
 protected String name;
 
@@ -14,8 +14,9 @@ public ItemBase(String name) {
   setUnlocalizedName(name);
   setRegistryName(name);
 }
-public void registerItemModel() {
-  SuperPipes.proxy.registerItemRenderer(this, 0 , name);
+  @Override
+public void registerItemModel(Item item) {
+  SuperPipes.proxy.registerItemRenderer(item, 0 , name);
 }
  @Override
   public ItemBase setCreativeTab(CreativeTabs tab) {
