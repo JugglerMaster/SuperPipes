@@ -20,5 +20,9 @@ public class BlockBase extends Block {
   public void registerItemModel(ItemBlock itemblock) {
     SuperPipes.proxy.registerItemRenderer(itemBlock, 0, name);
   }
-  //stopped here
+  @Override
+  public BlockBase setCreativeTab(CreativeTabs tab) {
+   super.setCreativeTab(tab);
+   return this;
+  }
 }
