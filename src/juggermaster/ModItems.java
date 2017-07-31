@@ -2,13 +2,27 @@
 package juggermaster.superpipes.item;
 
 import net.miecraft.item.Item;
-import net.minecraftforge.registries.IForgeRegistry;
+import net.minecraftforge.fml.common.registry.GameRegistery;
 
 public class ModItems {
-  //my super metal
-  public static ItemBase ingotSuperIron = new ItemBase("ingot_superiron").setCreativeTab(CreativeTabs.MATERIALS);
   
-  public static void register(IForgeRegistry<Item> registry) {
+  public static ItemBase ingotSuperIron;
+  
+  public static void init() {
+     //my super metal
+     ingotSuperIron = new ItemBase("ingot_superiron").setCreativeTab(CreativeTabs.MATERIALS);
+  } 
+  private static <T extends Item> T register(T item){
+   GameRegistry.register(item);
+    if(item instanceof ItemBase){
+    ((ItemBase)item).registerItemModel();
+    }
+    return item;
+  }
+ 
+  
+  
+  /*public static void register(IForgeRegistry<Item> registry) {
     registry.registerAll(
       ingotSuperIron
       );
@@ -19,3 +33,4 @@ public class ModItems {
   }
 }
 
+*/
