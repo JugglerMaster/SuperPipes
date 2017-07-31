@@ -1,0 +1,6 @@
+# Items
+item.ingotSuperIron.name=Super Iron Ingot
+# Blocks
+tile.oreStarDust.name=Star Dust Ore
+
+# put in src/main/resources/assets/superpipes/lang/
