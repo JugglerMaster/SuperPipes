@@ -24,6 +24,8 @@ public class SuperPipes {
   @Mod.EventHandler
   public void init(FMLPreInitializationEvent event){
     System.out.println(name + " super pipes is loading up!");
+    ModItems.init();
+    ModBlocks.init();
   }
   
   @Mod.EventHandler
