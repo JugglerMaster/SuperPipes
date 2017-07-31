@@ -1,4 +1,4 @@
-packages net.jugglermaster.superpipes.item;
+package net.jugglermaster.superpipes.item;
 
 import net.minecraft.item.Item;
 
