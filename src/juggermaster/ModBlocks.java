@@ -26,3 +26,4 @@ public class ModBlocks {
   return register(block, itemBlock);
  }
 }
+ 
