@@ -8,7 +8,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class ModBlocks {
 
   public static void init() {
-  
+   oreStarDust = register(new BlockOre("oreStarDust").setCreativeTab(CreativeTabs.MATERIALS));
   }
  
  private static <T extends Block> T register(T block, ItemBlock itemBlock) {
