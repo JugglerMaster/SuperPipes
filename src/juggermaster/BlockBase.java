@@ -6,7 +6,7 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemBlock;
 import net.jugglermaster.superpipes.SuperPipes;
 
-public class BlockBase extends Block {
+public class BlockBase extends Block implements ItemModelProvider{
   protected String name;
   
   public BlockBase(Material material, String name) {
@@ -17,8 +17,9 @@ public class BlockBase extends Block {
     setUnlocalizedName(name);
     setRegistryName(name);
   }
-  public void registerItemModel(ItemBlock itemblock) {
-    SuperPipes.proxy.registerItemRenderer(itemBlock, 0, name);
+  @Override
+  public void registerItemModel(Item item) {
+    SuperPipes.proxy.registerItemRenderer(item, 0, name);
   }
   @Override
   public BlockBase setCreativeTab(CreativeTabs tab) {
