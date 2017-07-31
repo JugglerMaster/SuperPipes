@@ -15,8 +15,8 @@ public class ModBlocks {
   GameRegistry.register(block);
   GameRegistry.register(itemBlock);
   
-  if(block instanceof BlockBase) {
-    ((BlockBase)block).registerItemModel(itemBlock);
+  if(block instanceof ItemModelProvider) {
+    ((ItemModelProvider)block).registerItemModel(itemBlock);
   }
   return block;
  }
