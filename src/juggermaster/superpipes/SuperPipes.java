@@ -3,10 +3,12 @@
 
 package juggermaster.superpipes;
 
-import net.miecraftforge.fml.common.Mod;
-import net.miecraftforge.fml.common.event.FMLInitializationEvent;
-import net.miecraftforge.fml.common.event.FMLPostInitializationEvent;
-import net.miecraftforge.fml.common.event.FMLPreInitializationEvent;
+import juggermaster.superpipes.block.ModBlocks;
+import juggermaster.superpipes.item.ModItems;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(modid = superpipes.modId, name = superpipes.name, version = superpipes.version)
 public class SuperPipes {
