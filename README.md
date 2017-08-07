@@ -26,3 +26,6 @@ Late game auto placing pipes that allow the user to right click where they want 
 Multiblock pipe system for crafting high tier items.
 
 Learn how to use object oriented coding more.
+
+Continue
+https://www.youtube.com/watch?v=pdzTukOnDbI
