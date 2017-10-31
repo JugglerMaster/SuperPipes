@@ -4,7 +4,7 @@ Currently this is my latest attempt at building a minecraft mod. As this is my f
 If you wish to submit a pull request to fix bugs or broken behaviour feel free to do so. 
 
 # Current Status: 
-Creating goals and initializing project
+Going to try downgrading to 1.10 so I can follow other guides before updating to 1.12 methods
 
 # Goals of  this project:
 
